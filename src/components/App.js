@@ -9,7 +9,7 @@ const App = ({ className }) => {
 
   return (
     <Placeholder.Wrapper>
-      <Placeholder.Line height={10} intervals={[[0, 10], [20, 30]]} />
+      <Placeholder.Line height={15} intervals={[[0, 10], [20, 30]]} />
       <Placeholder.Line height={10} />
       <Placeholder.Line height={10} intervals={[[0, 10], [20, 30]]} />
     </Placeholder.Wrapper>
