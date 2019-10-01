@@ -1,6 +1,6 @@
 {
   "name": "react-placeholder-canvas",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Boilerplate project for kickstarting development on a new project",
   "main": "dist/index.js",
   "files": [
@@ -9,7 +9,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "yarn clean && yarn build-es",
-    "build-es": " NODE_ENV=production babel src -d dist --source-maps inline --ignore src/**/*.test.js,src/**/*.story.js",
+    "build-es": "NODE_ENV=production babel src -d dist --source-maps inline --ignore src/**/*.test.js,src/**/*.story.js",
     "clean": "rimraf dist",
     "dev": "webpack --mode development",
     "lint": "eslint src --max-warnings=0",
@@ -17,8 +17,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --colors",
-    "semantic-release": "semantic-release",
-    "release": "bash ./scripts/release.sh"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
