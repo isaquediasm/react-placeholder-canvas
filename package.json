@@ -12,7 +12,7 @@
     "build-es": " NODE_ENV=production babel src -d dist --source-maps inline --ignore src/**/*.test.js,src/**/*.story.js",
     "clean": "rimraf dist",
     "dev": "webpack --mode development",
-    "lint": "eslint .",
+    "lint": "eslint src --max-warnings=0",
     "fixformat": "eslint . --fix",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -21,12 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AboutLocal/Frontend_Boilerplate.git"
+    "url": "git+https://github.com/isaquediasm/react-placeholder-canvas.git"
   },
-  "author": "Alex Percsi",
-  "license": "ISC",
+  "author": "Isaque Dias",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AboutLocal/Frontend_Boilerplate/issues"
+    "url": "https://github.com/isaquediasm/react-placeholder-canvas/issues"
   },
   "husky": {
     "hooks": {}
@@ -78,6 +78,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.4.5",
+    "acorn": "^7.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

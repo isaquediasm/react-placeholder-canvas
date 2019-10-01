@@ -59,7 +59,7 @@ Result:<br/>
 | --------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | height    | Number       | Define the height in `px` of the line to be draw                                                                                                                                                                                                                                  |
 | intervals | Array[Array] | List of intervals to be drawn in the line, from a start to an end point in percentage `%`. If nothing is provided, an empty line will be drawn. <br /> For example, `[[0, 10], [15, 20]]` will draw a lime from 0 to 10% of the container width and from 15 to 20%, respectively. |
-| style     | Object       | Any custom css styling                                                                                                                                                                                                                                                            |
+| style     | Object       | Add custom css styling to the element                                                                                                                                                                                                                                             |
 
 
 
