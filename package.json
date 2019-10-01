@@ -18,7 +18,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --colors",
     "semantic-release": "semantic-release",
-    "release": "bash ./scripts/release.sh"
+    "release": "yarn run semantic-release"
   },
   "repository": {
     "type": "git",
