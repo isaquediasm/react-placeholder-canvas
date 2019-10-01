@@ -17,7 +17,9 @@ jobs:
   include:
     - stage: npm release
       node_js: '8'
-      script: yarn build
+      script:
+        - yarn run release
+        - yarn build
 
       before_deploy:
         - cd dist
