@@ -1,32 +1,29 @@
 language: node_js
 node_js:
-  - '8'
-
+- '8'
 branches:
   only:
-    - master
-
+  - master
 cache: yarn
-
 install: yarn install
-
 script:
-  - yarn test
-
+- yarn test
 jobs:
   include:
-    - stage: npm release
-      node_js: '8'
-      script:
-        - yarn run release
-        - yarn build
-
-      before_deploy:
-        - cd dist
-      deploy:
-        provider: npm
-        email: '$NPM_EMAIL'
-        api_key: '$NPM_TOKEN'
-        skip_cleanup: true
-        on:
-          tags: true
+  - stage: npm release
+    node_js: '8'
+    script:
+    - yarn run release
+    - yarn build
+    before_deploy:
+    - cd dist
+    deploy:
+      provider: npm
+      email: "$NPM_EMAIL"
+      api_key: "$NPM_TOKEN"
+      skip_cleanup: true
+      on:
+        tags: true
+before_install:
+- openssl aes-256-cbc -K $encrypted_7f34ec8a9e62_key -iv $encrypted_7f34ec8a9e62_iv
+  -in git_deploy_key.enc -out git_deploy_key -d

@@ -8,10 +8,5 @@ make_semantic_tag() {
     yarn run semantic-release
 }
 
-push_changes() {
-  git push origin master
-}
-
 setup_git
 make_semantic_tag
-push_changes
