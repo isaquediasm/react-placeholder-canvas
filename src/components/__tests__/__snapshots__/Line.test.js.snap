@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render lines correctly 1`] = `
+<div
+  style={
+    Object {
+      "height": 10,
+    }
+  }
+>
+  <div
+    className="sc-1hs1toa-0 ekigly placeholder-offset"
+    style={
+      Object {
+        "left": "10%",
+        "width": "10%",
+      }
+    }
+  />
+  <div
+    className="sc-1hs1toa-0 ekigly placeholder-offset"
+    style={
+      Object {
+        "left": "30%",
+        "width": "70%",
+      }
+    }
+  />
+</div>
+`;
