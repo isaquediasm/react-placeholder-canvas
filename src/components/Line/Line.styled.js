@@ -7,4 +7,8 @@ const StyledOffset = styled.div`
   height: inherit;
 `;
 
-export { StyledOffset };
+const StyledLine = styled.div`
+  height: ${props => props.height}px;
+`;
+
+export { StyledOffset, StyledLine };

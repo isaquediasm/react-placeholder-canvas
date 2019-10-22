@@ -10,14 +10,11 @@ exports[`should render lines correctly 1`] = `
   }
 >
   <div
-    style={
-      Object {
-        "height": 10,
-      }
-    }
+    className="sc-1hs1toa-1 dXlBMd"
+    height={10}
   >
     <div
-      className="sc-1hs1toa-0 ekigly placeholder-offset"
+      className="sc-1hs1toa-0 ekigly"
       style={
         Object {
           "left": "10%",
@@ -26,7 +23,7 @@ exports[`should render lines correctly 1`] = `
       }
     />
     <div
-      className="sc-1hs1toa-0 ekigly placeholder-offset"
+      className="sc-1hs1toa-0 ekigly"
       style={
         Object {
           "left": "30%",
@@ -36,14 +33,11 @@ exports[`should render lines correctly 1`] = `
     />
   </div>
   <div
-    style={
-      Object {
-        "height": 10,
-      }
-    }
+    className="sc-1hs1toa-1 dXlBMd"
+    height={10}
   >
     <div
-      className="sc-1hs1toa-0 ekigly placeholder-offset"
+      className="sc-1hs1toa-0 ekigly"
       style={
         Object {
           "left": "0%",
@@ -53,14 +47,11 @@ exports[`should render lines correctly 1`] = `
     />
   </div>
   <div
-    style={
-      Object {
-        "height": 10,
-      }
-    }
+    className="sc-1hs1toa-1 dXlBMd"
+    height={10}
   >
     <div
-      className="sc-1hs1toa-0 ekigly placeholder-offset"
+      className="sc-1hs1toa-0 ekigly"
       style={
         Object {
           "left": "10%",
@@ -69,7 +60,7 @@ exports[`should render lines correctly 1`] = `
       }
     />
     <div
-      className="sc-1hs1toa-0 ekigly placeholder-offset"
+      className="sc-1hs1toa-0 ekigly"
       style={
         Object {
           "left": "30%",

@@ -1,7 +1,7 @@
 {
   "name": "react-placeholder-canvas",
-  "version": "0.0.1",
-  "description": "https://github.com/isaquediasm/react-placeholder-canvas",
+  "version": "1.0.3",
+  "description": "A component that provides a canvas to create your loading placeholders no matter the shape.",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -17,7 +17,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --colors",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "release": "yarn test && npm publish"
   },
   "repository": {
     "type": "git",
@@ -79,6 +80,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.4.5",
+    "polished": "^3.4.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

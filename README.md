@@ -1,4 +1,4 @@
-# react-placeholder-canvas [![Build Status][build-badge]][build]
+# react-placeholder-canvas [![Build Status](https://travis-ci.org/isaquediasm/react-placeholder-canvas.svg?branch=master)](https://travis-ci.org/isaquediasm/react-placeholder-canvas)
 
 A component that provides a canvas to create your loading placeholders no matter the shape.
 
@@ -75,14 +75,3 @@ Result:<br/>
 ## License
 
 This project is licensed under the MIT License
-
-[npm]: https://www.npmjs.com/
-[node]: https://nodejs.org
-[build-badge]: https://travis-ci.org/isaquediasm/react-placeholder-canvas.svg?branch=maste
-[build]: https://travis-ci.org/isaquediasm/react-placeholder-canvas
-[coverage-badge]: https://img.shields.io/codecov/c/github/kentcdodds/jest-glamor-react.svg?style=flat-square
-[coverage]: https://codecov.io/github/kentcdodds/jest-glamor-react
-[version-badge]: https://img.shields.io/npm/v/jest-glamor-react.svg?style=flat-square
-[package]: https://www.npmjs.com/package/jest-glamor-react
-[downloads-badge]: https://img.shields.io/npm/dm/jest-glamor-react.svg?style=flat-square
-[npm-stat]: http://npm-stat.com/charts.html?package=jest-glamor-react&from=2016-04-01

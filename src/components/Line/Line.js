@@ -1,21 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { invertIntervals, renderIntervals } from '../../helpers';
-import { StyledOffset } from './Line.styled';
+import { StyledOffset, StyledLine } from './Line.styled';
 
-function Component({ style = {}, height, intervals }) {
-  return (
-    <div style={{ height, ...style }}>
-      {renderIntervals(invertIntervals(intervals)).map((styling, idx) => (
-        <StyledOffset
-          key={idx}
-          className='placeholder-offset'
-          style={styling}
-        />
-      ))}
-    </div>
-  );
-}
+const Component = ({ height, intervals }) => (
+  <StyledLine height={height}>
+    {renderIntervals(invertIntervals(intervals)).map((styling, idx) => (
+      <StyledOffset key={idx} style={styling} />
+    ))}
+  </StyledLine>
+);
 
 const Line = React.memo(Component);
 

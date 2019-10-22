@@ -3,13 +3,11 @@ import PropTypes from 'prop-types';
 import { calculateHeight } from '../../helpers';
 import { StyledWrapper } from './Wrapper.styled';
 
-function Component({
+const Component = ({
   style = {},
   children,
   height = calculateHeight(children),
-}) {
-  return <StyledWrapper style={{ height, ...style }}>{children}</StyledWrapper>;
-}
+}) => <StyledWrapper style={{ height, ...style }}>{children}</StyledWrapper>;
 
 const Wrapper = React.memo(Component);
 
